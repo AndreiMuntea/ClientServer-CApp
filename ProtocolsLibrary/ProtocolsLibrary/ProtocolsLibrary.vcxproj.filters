@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\strutils\strutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\message.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\requests\login_request.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\requests\logout_request.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\requests\encrypt_request.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\responses\ok_response.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\responses\failure_response.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\responses\encrypt_response.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\responses\response_initialise_connection.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\strutils\strutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\requests\login_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\requests\logout_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\requests\encrypt_request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\responses\ok_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\responses\failure_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\responses\encrypt_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\responses\response_initialise_connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\message_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
